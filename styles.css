@@ -14,7 +14,6 @@ body {
 
 .left {
     flex-basis: 40%;
-    width: 40vw;
     background-image: url("imgs/background.jpg");
     background-position: top 0 left 87%;
     box-shadow: 5px 0px 5px #5d758c;
@@ -32,11 +31,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-flow: row wrap;
+  
 }
 
 #spiral-logo {
-    height: 15vh;
+    height: 150px;
 
 }
 
@@ -45,11 +44,12 @@ body {
     margin: 0;
     padding: 0;
     font-weight: 900;
-    display: block;
+
     
 
 }
 .right {
+
     width: 60vw;
     display: flex;
     flex-direction: column;
@@ -62,14 +62,14 @@ body {
 }
 
 #header {
-    height: 35vh;
+    min-height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 #content {
-   height: 32vh;
+    height: 32vh;
     background-color: #577792;
     box-shadow: 0 5px 5px #5d758c;
     padding-left: 50px;
