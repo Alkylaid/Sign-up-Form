@@ -2,6 +2,7 @@ body{
     width: 100vw;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+    color: #070c30;
 }
 
 .container {
@@ -35,26 +36,74 @@ body{
 
 #header {
     height: 35vh;
-    margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 #content {
     height: 30vh;
     background-color: #577792;
     box-shadow: 0 5px 5px #5d758c;
-
+    padding-left: 50px;
 }
 
 #footer {
     height: 35vh;
-
+    
 }
 
 .header-message {
+    width: 75%;
     font-size: 2rem;
     font-weight: bold;
-    padding: 0 30px;
-    width: 80%;
+    padding-left: 50px;
+    
+
+}
+
+#content-message{
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+   
+}
+
+fieldset{
+    font-size: 1.5rem;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 40%;
+    margin-bottom: 20px;
+
+}
+
+input{
+    width: 15vw;
+    height: 2.5vh;
+    border-radius: 5px;
+    border-style: none;
+    border: 2px solid #8aadce;
+    outline: none;
+    transition: 0.2s;
+}
+
+label {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+input:focus{
+    border: 2px solid #f9c7ae;
 }
