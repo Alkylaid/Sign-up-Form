@@ -21,7 +21,7 @@
             </div>
             <div id="content">
                 <p id="content-message">Let's do this!</p>
-                <fieldset>
+                <form id="sign-up-form">
                     <div class="input"> <label for="first_name">First Name</label><input type="text" name="first_name"
                             id="first_name"></div>
                     <div class="input"> <label for="last_name">Last Name</label><input type="text" name="last_name"
@@ -35,11 +35,13 @@
                             title="Must contain at least one uppercase, one lowercase, one number/special character, and at least 8 or more characters."></div>
                     <div class="input"><label for="confirm_password">Confirm Password</label><input type="password"
                         name="confirm_password" id="confirm_password"></div>
-                </fieldset>
+                    </form>
                 <span></span>
             </div>
 
-            <div id="footer"></div>
+            <div id="footer">
+                <button type="submit" form="sign-up-form">Create Account</button>
+            </div>
         </div>
     </div>
 </body>
