@@ -31,10 +31,12 @@
                     <div class="input"> <label for="phone">Phone Number</label><input type="tel" name="phone"
                             id="phone"></div>
                     <div class="input"><label for="password">Password</label><input type="password" name="password"
-                            class="error" id="password"></div>
+                            id="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
+                            title="Must contain at least one uppercase, one lowercase, one number/special character, and at least 8 or more characters."></div>
                     <div class="input"><label for="confirm_password">Confirm Password</label><input type="password"
-                        class="error" name="confirm_password" id="confirm_password"></div>
+                        name="confirm_password" id="confirm_password"></div>
                 </fieldset>
+                <span></span>
             </div>
 
             <div id="footer"></div>

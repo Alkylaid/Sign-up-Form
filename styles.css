@@ -42,14 +42,14 @@ body{
 }
 
 #content {
-    height: 30vh;
+    height: 32vh;
     background-color: #577792;
     box-shadow: 0 5px 5px #5d758c;
     padding-left: 50px;
 }
 
 #footer {
-    height: 35vh;
+    height: 33vh;
     
 }
 
@@ -66,7 +66,7 @@ body{
     display: flex;
     font-size: 2rem;
     font-weight: bold;
-   
+    margin-bottom: 0;
 }
 
 fieldset{
@@ -74,32 +74,34 @@ fieldset{
     border: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    padding: 0;
+    justify-content: space-evenly;
+    padding: 0 0;
     margin: 0;
+    width: 60%;
+
 
 }
 
 .input {
     display: flex;
     flex-flow: column wrap;
-    flex-basis: 40%;
-    margin-bottom: 20px;
-
+    flex-basis: 50%;
+    margin-top: 20px;
 }
 
 input{
-    width: 15vw;
+    width: 13vw;
     height: 2.5vh;
     border-radius: 5px;
     border-style: none;
     border: 2px solid #8aadce;
     outline: none;
     transition: 0.2s;
+   
 }
 
 label {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
@@ -107,3 +109,19 @@ label {
 input:focus{
     border: 2px solid #f9c7ae;
 }
+
+#error_message{
+    color: #ff0000;
+    margin-top: 5px;
+}
+
+.valid{
+    border: 2px solid #008000;
+
+}
+
+.invalid{
+    border: 2px solid #ff0000;
+
+}
+
