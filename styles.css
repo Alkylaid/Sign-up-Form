@@ -3,6 +3,7 @@ body {
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     color: #070c30;
+   
 }
 
 .container {
@@ -19,6 +20,9 @@ body {
     box-shadow: 5px 0px 5px #5d758c;
     position: relative;
     display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -32,6 +36,10 @@ body {
     align-items: center;
     justify-content: center;
   
+}
+
+.attribution {
+    color: #ffffff;
 }
 
 #spiral-logo {
@@ -91,6 +99,7 @@ body {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 0;
+    
 }
 
 form {
@@ -102,7 +111,7 @@ form {
     padding: 0 0;
     margin: 0;
     width: 60%;
-    min-width: 400px;
+    min-width: 40vw;
 
 }
 
@@ -111,6 +120,7 @@ form {
     flex-flow: column wrap;
     flex-basis: 50%;
     margin-top: 20px;
+
 
 }
 
@@ -185,3 +195,4 @@ a{
     text-decoration: none;
     color: #FFFFFF;
 }
+
