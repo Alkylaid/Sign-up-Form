@@ -84,6 +84,8 @@ body {
     background-color: #577792;
     box-shadow: 0 5px 5px #5d758c;
     padding-left: 50px;
+    padding-bottom: 30px;
+
 }
 
 #footer {
@@ -105,6 +107,7 @@ body {
     display: flex;
     font-size: 1.75rem;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 form {
