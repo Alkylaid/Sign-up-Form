@@ -151,16 +151,17 @@ input:focus {
 #error_message {
     color: #ff0000;
     margin-top: 5px;
+    
 }
 
-.valid {
+.valid, .valid:focus{
     border: 2px solid #008000;
-
+    
 }
 
-.invalid {
+.invalid, .invalid:focus {
     border: 2px solid #ff0000;
-
+    
 }
 
 button[type="submit"] {

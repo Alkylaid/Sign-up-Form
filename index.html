@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" >
+    <script src="script.js" defer></script>
     <title>Sign-up Form</title>
 </head>
 
@@ -24,7 +25,7 @@
             </div>
             <div id="content">
                 <p id="content-message">Let's do this!</p>
-                <form id="sign-up-form">
+                <form id="sign-up-form" method="post">
                     <div class="input"> <label for="first_name">First Name</label><input type="text" name="first_name"
                             id="first_name"></div>
                     <div class="input"> <label for="last_name">Last Name</label><input type="text" name="last_name"
@@ -34,16 +35,16 @@
                     <div class="input"> <label for="phone">Phone Number</label><input type="tel" name="phone"
                             id="phone"></div>
                     <div class="input"><label for="password">Password</label><input type="password" name="password"
-                            id="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
+                            id="password" value="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
                             title="Must contain at least one uppercase, one lowercase, one number/special character, and at least 8 or more characters."></div>
                     <div class="input"><label for="confirm_password">Confirm Password</label><input type="password"
-                        name="confirm_password" id="confirm_password"></div>
+                        name="confirm_password" id="confirm_password" value=""></div>
                     </form>
                 <span></span>
             </div>
 
             <div id="footer">
-                <button type="submit" form="sign-up-form">Create Account</button>
+                <button type="submit" form="sign-up-form" id="create_account">Create Account</button>
                 <p id="login-message">Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
