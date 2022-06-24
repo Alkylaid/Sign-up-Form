@@ -191,6 +191,10 @@ p#login-message {
     font-weight: bold;
     
 }
+button[type="submit"]:disabled, button[type="submit"]:disabled:hover {
+    opacity: 0.5;
+    box-shadow: none;
+}
 
 a{
     text-decoration: none;

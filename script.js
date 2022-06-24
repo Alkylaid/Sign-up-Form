@@ -24,11 +24,13 @@ if (password.value != confirm_password.value) {
     error_message.innerHTML = "* Passwords do not match";
     error_message.style.color = 'red';
     content.appendChild(error_message);
+    create_account.disabled = true;
 } else {
     password.classList.remove("invalid");
     confirm_password.classList.remove("invalid");
     password.classList.add("valid");
     confirm_password.classList.add("valid");
     error_message.innerHTML = "";
+    create_account.disabled = false;
 }
 }
