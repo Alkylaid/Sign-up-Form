@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 body {
-    width: 100vw;
-    margin: 0 auto;
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: #070c30;
 
@@ -11,13 +10,12 @@ body {
 
 .container {
     display: flex;
-    min-height: 100vh;
 
 }
 
 
 .left {
-    flex-basis: 40%;
+    width: 40vw;
     background-image: url("imgs/background.jpg");
     background-position: top 0 left 87%;
     box-shadow: 5px 0px 5px #5d758c;
@@ -60,11 +58,11 @@ body {
 
 }
 .right {
-
     width: 60vw;
     display: flex;
     flex-direction: column;
     background-color: #668096;
+
 
 
 }
@@ -91,7 +89,8 @@ body {
 #footer {
     display: flex;
     flex-direction: column;
-    min-height: 32vh;
+    min-height: 30vh;
+
 }
 
 .header-message {
