@@ -68,9 +68,7 @@ body {
 
 }
 
-#header {
-    margin-top: 10vh;
-}
+
 
 #content {
     height: 32vh;
@@ -176,6 +174,7 @@ button[type="submit"] {
     color: #FFFFFF;
     font-weight: bold;
     transition: 0.4s;
+    padding: 5px;
 
 }
 
