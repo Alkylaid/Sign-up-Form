@@ -66,28 +66,38 @@ body {
     flex-direction: column;
     background-color: #668096;
 
+
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    min-height: 35vh;
+    justify-content: center;
 }
 
 
 
 #content {
-    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 32vh;
     background-color: #577792;
     box-shadow: 0 5px 5px #5d758c;
     padding-left: 50px;
 }
 
-#header {
-    margin-top: 150px;
+#footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 33vh;
 }
-
 
 .header-message {
     width: 75%;
     font-size: 1.75rem;
     font-weight: bold;
     padding-left: 50px;
-
+    
 
 }
 
@@ -95,8 +105,6 @@ body {
     display: flex;
     font-size: 1.75rem;
     font-weight: bold;
-    margin-bottom: 0;
-    
 }
 
 form {
@@ -171,6 +179,7 @@ button[type="submit"] {
     height: 5vh;
     font-size: 1.3rem;
     min-width: 120px;
+    min-height: 50px;
     border-radius: 10px;
     background-color: #07134b;
     color: #FFFFFF;
