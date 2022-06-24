@@ -91,7 +91,7 @@ body {
 #footer {
     display: flex;
     flex-direction: column;
-    min-height: 33vh;
+    min-height: 32vh;
 }
 
 .header-message {
@@ -148,12 +148,9 @@ input {
 }
 
 
-
-
-input:not(:focus):not(:placeholder-shown):invalid {
+input:not(:focus):not(:placeholder-shown):invalid, .invalid, .invalid:focus  {
     border: 2px solid #ff0000;
 }
-
 
 
 label {
@@ -174,11 +171,6 @@ input:focus {
     
 }
 
-
-.invalid, .invalid:focus {
-    border: 2px solid #ff0000;
-    
-}
 
 button[type="submit"] {
     margin-top: 50px;
